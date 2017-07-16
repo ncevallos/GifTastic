@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Giphy API</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/java.js"></script>
+
+  </head>
+  <body>
+    <div class="jumbotron" id="jumbo">
+
+    <!-- Buttons will get dumped here -->
+    <div id="buttonsMain"></div>
+
+    </div> <!-- Closes Jumbotron -- >
+        <div id= "lowerContainer">
+        <!-- Gifs will be inserted here -->
+    <div id="gifContainer" class="col-xs-12 col-sm-8"></div>
+    <div id="addATopicContainer" class="col-xs-6 col-sm-4">
+      
+
+          <form id="addTopicForm">
+      <label for="topicInput">Add A New GIF Search Topic</label>
+      <input type="text" id="topicInput"><br>
+
+      <!-- Button triggers new topic to be added -->
+      <input id="addTopic" class="btn btn-primary" type="submit" value="Add a Topic">
+    </form>
+    </div> <!-- Closes add A topic -->
+    </div> <!-- Closes the lower container -->
+
+
+
+  </body>
+</html>

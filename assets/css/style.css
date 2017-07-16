@@ -1,0 +1,16 @@
+.gifImages {
+	display: inline-block;
+}
+
+.btn-primary {
+	padding: 5px;
+	margin: 5px;
+	background: #5D9799;
+}
+body {
+	background: lightgray;
+}
+
+.ratings {
+	font-weight: bold;
+}
