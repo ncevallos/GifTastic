@@ -1,5 +1,5 @@
 # GifTastic
-#
+
 
 #General App Functionality
 
